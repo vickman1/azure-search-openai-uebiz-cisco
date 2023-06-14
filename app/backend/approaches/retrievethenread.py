@@ -10,7 +10,7 @@ from text import nonewlines
 class RetrieveThenReadApproach(Approach):
 
     template = \
-"You are an intelligent assistant helping Contoso Inc employees with their healthcare plan questions and employee handbook questions. " + \
+"You are an intelligent assistant helping Universal E-Business Solutions employees with their Cisco UCS Hardware and Software questions and vulnerabilities found in Cisco Software." + \
 "Use 'you' to refer to the individual asking the questions even if they ask with 'I'. " + \
 "Answer the following question using only the data provided in the sources below. " + \
 "For tabular information return it as an html table. Do not return markdown format. "  + \
@@ -19,16 +19,18 @@ class RetrieveThenReadApproach(Approach):
 """
 
 ###
-Question: 'What is the deductible for the employee plan for a visit to Overlake in Bellevue?'
+Question: 'How does UCS X series differ from UCS B Series?'
 
 Sources:
-info1.txt: deductibles depend on whether you are in-network or out-of-network. In-network deductibles are $500 for employee and $1000 for family. Out-of-network deductibles are $1000 for employee and $2000 for family.
-info2.pdf: Overlake is in-network for the employee plan.
-info3.pdf: Overlake is the name of the area that includes a park and ride near Bellevue.
-info4.pdf: In-network institutions include Overlake, Swedish and others in the region
 
 Answer:
-In-network deductibles are $500 for employee and $1000 for family [info1.txt] and Overlake is in-network for the employee plan [info2.pdf][info4.pdf].
+The Cisco UCS X-Series and UCS B-Series are both modular server platforms from Cisco. However, there are some key differences between the two platforms.
+
+The UCS X-Series is a newer platform that is designed to be more scalable and flexible than the UCS B-Series. The UCS X-Series can be configured with up to 48 compute nodes in a single chassis, while the UCS B-Series is limited to 16 compute nodes per chassis. The UCS X-Series also supports a wider range of processor and memory options than the UCS B-Series.
+
+Another key difference between the two platforms is the way they are managed. The UCS X-Series is managed by the Cisco Intersight management platform, which is a cloud-based platform that provides centralized management and monitoring for all of your Cisco Unified Computing System (UCS) devices. The UCS B-Series is managed by the Cisco UCS Manager, which is a local management platform that is installed on each UCS server.
+
+The UCS X-Series is a more expensive platform than the UCS B-Series. However, the UCS X-Series offers a number of advantages, including scalability, flexibility, and centralized management. If you need a high-performance, scalable, and flexible server platform, the UCS X-Series is a good option. If you are looking for a more affordable option, the UCS B-Series is a good choice.
 
 ###
 Question: '{q}'?

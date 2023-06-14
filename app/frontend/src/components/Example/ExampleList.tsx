@@ -9,11 +9,11 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
+        text: "How many DIMM Slots does a Cisco UCS X210 M7 Server have?",
+        value: "How many DIMM Slots does a Cisco UCS X210 M7 Server have?"
     },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+    { text: "List all Available CPUs PID for X210c.", value: "List all Available CPUs PID for X210c." },
+    { text: "Has there been an End of Life Announcement for UCS FI 6332?", value: "Has there been an End of Life Announcement for UCS FI 6332?" }
 ];
 
 interface Props {
